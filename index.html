@@ -30,6 +30,7 @@
     </head>
     <body>
         <main>
+            <div id="lesson"></div>
             <div id="enorsp"></div>
             <div id="card"></div>
             <button onclick="flip()">Flip</button>
@@ -44,6 +45,7 @@
         <script>
             const card = document.getElementById('card');
             const enorsp = document.getElementById('enorsp');
+            const lesson = document.getElementById('lesson');
 
             var flipped = false;
             
@@ -55,6 +57,7 @@
             function update_card() {
                 card.innerText = info[current_lesson][current_item][flipped ? 0 : 1];
                 enorsp.innerText = flipped ? 'spanish' : 'english';
+                lesson.innerText = `${current_lesson}:${current_item}`
             }
 
             function update_variables() {
