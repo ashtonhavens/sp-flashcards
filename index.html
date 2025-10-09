@@ -5,10 +5,13 @@
 
         <style>
             main {
-                width: 500px;
+                width: 100%;
                 margin: auto;
                 margin-top: 200px;
                 text-align: center;
+                display: flex;
+                gap: 25px;
+                justify-content: center;
             }
 
             #card {
@@ -26,18 +29,40 @@
             #enorsp {
                 font-style: italic;
             }
+
+            #lesson_check {
+                width: 250px;
+                text-align: left;
+                padding-top: 50px;  
+            }
         </style>
     </head>
     <body>
         <main>
-            <div id="lesson"></div>
-            <div id="enorsp"></div>
-            <div id="card"></div>
-            <button onclick="flip()">Flip</button>
-            <button onclick="random_card()">Random Card</button>
-            <br><br>
-            <button onclick="prev_card()">Previous Card</button>
-            <button onclick="next_card()">Next Card</button>
+            <div id="lesson_check">
+                <input type="checkbox" id="l1.0_check">
+                <label for="l1.0_check">(0) En el consultorio</label><br>
+                <input type="checkbox" id="l1.1_check">
+                <label for="l1.1_check">(1) Imperfect Tense</label><br>
+                <input type="checkbox" id="l1.2_check">
+                <label for="l1.2_check">(2) Preterite and Imperfect</label><br>
+                <input type="checkbox" id="l1.3_check">
+                <label for="l1.3_check">(3) Constructions with se</label><br>
+                <input type="checkbox" id="l1.4_check">
+                <label for="l1.4_check">(4) Adverbs</label><br>
+                <input type="checkbox" id="l1.5_check" checked>
+                <label for="l1.5_check">(5) computers</label>
+            </div>
+            <div>
+                <div id="lesson"></div>
+                <div id="enorsp"></div>
+                <div id="card"></div>
+                <button onclick="flip()">Flip</button>
+                <button onclick="random_card()">Random Card</button>
+                <br><br>
+                <button onclick="next_card(false)">Previous Card</button>
+                <button onclick="next_card(true)">Next Card</button>
+            </div>
         </main>
 
 
@@ -46,6 +71,16 @@
             const card = document.getElementById('card');
             const enorsp = document.getElementById('enorsp');
             const lesson = document.getElementById('lesson');
+            const checks = document.getElementById('lesson_check');
+
+            const lessons = {
+                "l1.0_check": 0,
+                "l1.1_check": 1,
+                "l1.2_check": 2,
+                "l1.3_check": 3,
+                "l1.4_check": 4,
+                "l1.5_check": 5,
+            }
 
             var flipped = false;
             
@@ -53,8 +88,25 @@
             let current_item = 0;
 
             let current_thing, current_problem, current_result;
+            
+            var checked = [];
+
+            var none_checked = false;
+
+            function is_checked(n) {
+                for (let i of checked) {
+                    if (n == i) return true;
+                }
+                return false;
+            }
 
             function update_card() {
+                if (none_checked) {
+                    card.innerHTML = '<i>Check some lessons!</i>';
+                    enorsp.innerText = '-';
+                    lesson.innerText = '-';
+                    return;
+                }
                 card.innerText = info[current_lesson][current_item][flipped ? 0 : 1];
                 enorsp.innerText = flipped ? 'spanish' : 'english';
                 lesson.innerText = `${current_lesson}:${current_item}`
@@ -66,48 +118,89 @@
                 current_result = current_thing[0];
             }
 
+            function get_next_valid_lesson(l, dir) {
+                let il = l;
+                while (true) {
+                    l += (dir ? 1 : -1);
+                    if ((dir && l >= info.length) || (!dir && l < 0)) {
+                        l = (dir ? 0 : info.length-1);
+                    }
+                    if (is_checked(l) || il == l) {
+                        break;
+                    }
+                }
+                return l;
+            }
+
+            function update_checked() {
+                checked = [];
+                for (let ele of checks.children) {
+                    if (ele.checked == undefined) {
+                        continue;
+                    }
+                    let lnum = lessons[ele.id];
+                    if (ele.checked) {
+                        checked.push(lnum);
+                    } else if (lnum == current_lesson) {
+                        current_lesson++;
+                        current_item = 0;
+                    }
+                }
+
+                if (current_lesson >= info.length) {
+                    current_lesson = get_next_valid_lesson(current_lesson, true);
+                }
+
+                none_checked = false;
+                if (checked.length == 0) {
+                    none_checked = true;
+                }
+
+                update_variables();
+                update_card();
+            }
+
             function flip() {
                 flipped = !flipped;
                 update_card();
             }
 
-            function next_card() {
-                flipped = false;
-                current_item += 1;
-                if (current_item >= info[current_lesson].length) {
-                    current_lesson += 1;
-                    current_item = 0;
-                    if (current_lesson >= info.length) {
-                        current_lesson = 0;
-                    }
+            function next_card(dir) {
+                if (checked.length == 0) {
+                    return;
                 }
-                update_variables();
-                update_card();
-            }
-            function prev_card() {
+
                 flipped = false;
-                current_item -= 1;
-                if (current_item < 0) {
-                    current_lesson -= 1;
-                    if (current_lesson < 0) {
-                        current_lesson = info.length-1;
-                    }
-                    current_item = info[current_lesson].length-1;
+                current_item += (dir ? 1 : -1);
+
+                if ((dir && current_item >= info[current_lesson].length) || (!dir && current_item < 0)) {
+                    current_lesson = get_next_valid_lesson(current_lesson, dir);
+                    current_item = (dir ? 0 : info[current_lesson].length-1);
                 }
+
+
                 update_variables();
                 update_card();
             }
 
             function random_card() {
                 flipped = false;
-                current_lesson = Math.random() * info.length | 0;
+
+                current_lesson = -1;
+                while (!is_checked(current_lesson))
+                    current_lesson = Math.random() * info.length | 0;
+
                 current_item = Math.random() * info[current_lesson].length | 0;
+
                 update_variables();
                 update_card();
             }
 
-            update_variables();
-            update_card();
+            for (let i in lessons) {
+                document.getElementById(i)?.addEventListener('change', update_checked);
+            }
+
+            update_checked();
         </script>
     </body>
 </html>
