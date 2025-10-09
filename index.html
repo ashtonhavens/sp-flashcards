@@ -101,6 +101,7 @@
             }
 
             function update_card() {
+                console.log(none_checked)
                 if (none_checked) {
                     card.innerHTML = '<i>Check some lessons!</i>';
                     enorsp.innerText = '-';
@@ -113,12 +114,15 @@
             }
 
             function update_variables() {
+                console.log(current_lesson)
                 current_thing = info[current_lesson][current_item];
                 current_problem = current_thing[1];
                 current_result = current_thing[0];
             }
 
             function get_next_valid_lesson(l, dir) {
+                if (none_checked) return 0;
+
                 let il = l;
                 while (true) {
                     l += (dir ? 1 : -1);
@@ -147,13 +151,13 @@
                     }
                 }
 
-                if (current_lesson >= info.length) {
-                    current_lesson = get_next_valid_lesson(current_lesson, true);
-                }
-
                 none_checked = false;
                 if (checked.length == 0) {
                     none_checked = true;
+                }
+
+                if (current_lesson >= info.length) {
+                    current_lesson = get_next_valid_lesson(current_lesson, true);
                 }
 
                 update_variables();
