@@ -203,11 +203,28 @@ const la_tecnología = [
     ["la llanta", "the tire"],
 ]
 
+const familiar_commands = [
+    ["Guarda el documento antes de cerrarlo.", "Save the document before closing it."],
+    ["Imprime tu tarea para la clase de inglés.", "Print your homework for English class."],
+    ["¡Sal ahora mismo!", "Leave at once!"],
+    ["Haz los ejercicios.", "Do the exercises."],
+    ["Ve al cibercafé con Yolanda.", "Go to the cybercafé with Yolanda."],
+    ["Ve ese programa... es muy interesante.", "See that program... it's very interesting."],
+    ["Héctor, no pares el carro aquí.", "Héctor, don't stop the car here."],
+    ["No prendas la computadora todavía.", "Don't turn on the computer yet."],
+    ["No pongas el cederrón el la computadora.", "Don't put the CD-ROM in the computer."],
+    ["No conduzcas tan rápido.", "Don't drive so fast."],
+    ["No pierdas tu celular.", "Don't lose your cell phone."],
+    ["No vuelvas a esa gasolinera.", "Don't go back to that gas station."],
+    ["No repitas las instrucciones.", "Don't repeat the instructions."],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
     preterite_and_imperfect,
     constructions_with_se,
     adverbs,
-    la_tecnología
+    la_tecnología,
+    familiar_commands
 ]
