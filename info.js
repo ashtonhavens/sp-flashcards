@@ -212,7 +212,7 @@ const familiar_commands = [
     ["Ve ese programa... es muy interesante.", "See that program... it's very interesting."],
     ["Héctor, no pares el carro aquí.", "Héctor, don't stop the car here."],
     ["No prendas la computadora todavía.", "Don't turn on the computer yet."],
-    ["No pongas el cederrón el la computadora.", "Don't put the CD-ROM in the computer."],
+    ["No pongas el cederrón en la computadora.", "Don't put the CD-ROM in the computer."],
     ["No conduzcas tan rápido.", "Don't drive so fast."],
     ["No pierdas tu celular.", "Don't lose your cell phone."],
     ["No vuelvas a esa gasolinera.", "Don't go back to that gas station."],
