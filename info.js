@@ -219,6 +219,35 @@ const familiar_commands = [
     ["No repitas las instrucciones.", "Don't repeat the instructions."],
 ]
 
+const por_and_para = [
+    ["La excursión nos llevó por el centro.", "The tour took us through downtown."],
+    ["Mis amigos van para el estadio.", "My friends are going to the stadium."],
+    ["Ana navegó la red por dos horas.", "Ana surfed the net for two hours."],
+    ["Tengo que escribir un esayo para mañana.", "I have to write an essay by tomorrow."],
+    ["Llegué a casa tarde por el tráfico.", "I got home late because of the traffic."],
+    ["Estoy preparando una sorpresa para Eduardo.", "I'm preparing a surprise for Eduardo."],
+    ["Pasamos por el parque y por el rio.", "We passed by the park and along the river."],
+    ["Estuve en la Patagonia por un mes.", "I was in Patagonia for a month."],
+    ["Lo hizo por su familia.", "She did it on behalf of her family."],
+    ["Vengo por ti a las ocho.", "I'm coming for you at eight."],
+    ["Manuel fue por su cámara digital.", "Manuel went in search of his digital camera."],
+    ["Ellos viajan por la autopista.", "They travel by (by way of) the highway."],
+    ["Le di dinero por el reproductor de MP3.", "I gave him money for the MP3 player."],
+    ["José manejaba a 120 kilómetros por hora.", "José was driving 120 kilometers per hour."],
+    ["Salimos para Córdoba el sábado.", "We are leaving for Córdoba on Saturday."],
+    ["Él va a arreglar el carro para el viernes.", "He will fix the car by Friday."],
+    ["Juan estudia para (ser) mecánico.", "Juan is studying to be a mechanic."],
+    ["Es una llanta para el carro.", "It's a tire for the car."],
+    ["Compré una impresora para mi abuelo.", "I bought a printer for my grandfather."],
+    ["Para un joven, es desmasiado serio.", "For a young person, he is too serious."],
+    ["Para mí, esta lección no es difícil.", "For me, this lesson isn't difficult."],
+    ["Sara trabaja para Telecom Argentina.", "Sara works for Telecom Argentina."],
+    ["Caminé por el parque.", "I walked through the park."],
+    ["Caminé para el parque.", "I walked to (toward) the park."],
+    ["Trabajó por su padre.", "He worked for (in place of) his father."],
+    ["Trabajó para su padre.", "He worked for his father('s company)."],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -226,5 +255,6 @@ const info = [
     constructions_with_se,
     adverbs,
     la_tecnología,
-    familiar_commands
+    familiar_commands,
+    por_and_para
 ]
