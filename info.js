@@ -248,6 +248,8 @@ const por_and_para = [
     ["Trabajó para su padre.", "He worked for his father('s company)."],
 ]
 
+`Luis y Marta se miran en el espejo. / Luis and Marta look at themselves in the mirror. ; Luis y Marta se miran. / Luis and Marta look at each other. ; Cuando nos vimos en la calle, nos abrazamos. / When we saw each other on the street, we hugged (one another) ; Nos ayudamos cuando usamos la computadora. / We help each other when we use the computer. ; Ustedes se van a encontrar en el cibercafé, ¿no? / You are meeting (each other) at the cybercafé, right? ; Las amigas se saludaron y se besaron / The friends greeted each other and kissed (one another). ; `;
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
