@@ -248,7 +248,20 @@ const por_and_para = [
     ["Trabajó para su padre.", "He worked for his father('s company)."],
 ]
 
-`Luis y Marta se miran en el espejo. / Luis and Marta look at themselves in the mirror. ; Luis y Marta se miran. / Luis and Marta look at each other. ; Cuando nos vimos en la calle, nos abrazamos. / When we saw each other on the street, we hugged (one another) ; Nos ayudamos cuando usamos la computadora. / We help each other when we use the computer. ; Ustedes se van a encontrar en el cibercafé, ¿no? / You are meeting (each other) at the cybercafé, right? ; Las amigas se saludaron y se besaron / The friends greeted each other and kissed (one another). ; `;
+const reciprocal_reflexives = [
+    ["Luis y Marta se miran en el espejo.", "Luis and Marta look at themselves in the mirror."],
+    ["Luis y Marta se miran.", "Luis and Marta look at each other."],
+    ["Cuando nos vimos en la calle, nos abrazamos.", "When we saw each other on the street, we hugged (one another)"],
+    ["Nos ayudamos cuando usamos la computadora.", "We help each other when we use the computer."],
+    ["Ustedes se van a encontrar en el cibercafé, ¿no?", "You are meeting (each other) at the cybercafé, right?"],
+    ["Las amigas se saludaron y se besaron", "The friends greeted each other and kissed (one another)."],
+    ["Laura y Elián se conocían bien.", "Laura and Elián knew each other well."],
+    ["Laura y Elián se miraban con amor", "Laura and Elián looked at each other with love."],
+    ["Laura y Elián se entendían bien.", "Laura and Elián understood each other well."],
+    ["Laura y Elián se hablaban todas las noches por teléfono.", "Laura and Elián talked to each other every night on the phone."],
+    ["Laura y Elián se ayudaban con sus problemas.", "Laura and Elián helped each other with their problems."],
+
+]
 
 const info = [
     en_el_consultorio,
@@ -258,5 +271,6 @@ const info = [
     adverbs,
     la_tecnología,
     familiar_commands,
-    por_and_para
+    por_and_para,
+    reciprocal_reflexives,
 ]
