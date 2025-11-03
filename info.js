@@ -260,7 +260,20 @@ const reciprocal_reflexives = [
     ["Laura y Elián se entendían bien.", "Laura and Elián understood each other well."],
     ["Laura y Elián se hablaban todas las noches por teléfono.", "Laura and Elián talked to each other every night on the phone."],
     ["Laura y Elián se ayudaban con sus problemas.", "Laura and Elián helped each other with their problems."],
+]
 
+const stressed_possessive_adjectives_and_pronouns = [
+    ["Juancho es un amigo mío.", "Juancho is a friend of mine."],
+    ["Ella es una compañera nuestra.", "She is a classmate of ours."],
+    ["Aquí está mi coche. ¿Dónde está el tuyo?", "Here's my car. Where is yours?"],
+    ["El mío está en el taller de mi hermano.", "Mine is at my brother's garage."],
+    ["¿Tienes las revistas de Carlos?", "Do you have Carlos' magazines?"],
+    ["No, pero tengo las nuestras.", "No, but I have ours."],
+    ["Una amiga suya vive en Mendoza.", "A friend of hers lives in Mendoza."],
+    ["¿Me prestas la computadora tuya?", "Can I borrow your computer? / El coche suyo nunca funciona bien. = Her car never works properly."],
+    ["No nos interesan los problemas suyos.", "We are not interested in your problems."],
+    ["Yo quiero la cámara digital más ahora mismo.", "I want the digital camera more right now."],
+    ["Unos amigos nuestros manejan como locos.", "Some friends of ours drive like crazy."],
 ]
 
 const info = [
@@ -273,4 +286,5 @@ const info = [
     familiar_commands,
     por_and_para,
     reciprocal_reflexives,
+    stressed_possessive_adjectives_and_pronouns,
 ]
