@@ -353,6 +353,19 @@ const la_vivienda = [
     ["el cuchillo", "knife"],
 ];
 
+const relative_pronouns = [
+    ["¿Dónde está la cafetera que compré?", "Where is the coffee maker that I bought?"],
+    ["El hombre que limpia es Pedro.", "The man who is cleaning is Pedro."],
+    ["¿Son las chicas de quienes me hablaste la semana pasada?", "Are they the girls that you told me about last week?"],
+    ["Eva, a quien conocí anoche, es mi nueva vecina.", "Eva, whom I met last night, is my new neighbor."],
+    ["Lola, a quien es cubana, es médica.", "Lola, who is Cuban, is a doctor."],
+    ["Su tía, que es alemana, ya llegó.", "His aunt, who is German, already arrived."],
+    ["Lo que me molesta es el calor.", "What bothers me is the heat."],
+    ["Lo que quiero es una casa.", "What I want is a house."],
+    ["Este supermercado tiene todo lo que necesito.", "This supermarket has everything I need."],
+    ["A Samuel no le gustó lo que le dijo Violeta.", "Samuel didn't like what Violet said to him."],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -364,5 +377,6 @@ const info = [
     por_and_para,
     reciprocal_reflexives,
     stressed_possessive_adjectives_and_pronouns,
-    la_vivienda
+    la_vivienda,
+    relative_pronouns
 ]

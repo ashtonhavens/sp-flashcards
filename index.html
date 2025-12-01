@@ -77,8 +77,10 @@
                 <label for="8">(2.3) Reciprocal Reflexives</label><br>
                 <input type="checkbox" id="9">
                 <label for="9">(2.4) Stressed Possessive Adjectives and Pronouns</label><br>
-                <input type="checkbox" id="10" checked>
+                <input type="checkbox" id="10">
                 <label for="10">(3.0) La Vivienda</label><br>
+                <input type="checkbox" id="11" checked>
+                <label for="11">(3.1) Relative Pronouns</label><br>
             </div>
             <div>
                 <div id="lesson"></div>
@@ -93,14 +95,14 @@
         </main>
 
 
-        <script src="info.js?version=4"></script>
+        <script src="info.js?version=5"></script>
         <script>
             const card = document.getElementById('card');
             const enorsp = document.getElementById('enorsp');
             const lesson = document.getElementById('lesson');
             const checks = document.getElementById('lesson_check');
 
-            const lessons = '1.0 1.1 1.2 1.3 1.4 2.0 2.1 2.2 2.3 2.4 3.0'.split(' ');
+            const lessons = '1.0 1.1 1.2 1.3 1.4 2.0 2.1 2.2 2.3 2.4 3.0 3.1'.split(' ');
 
             let __checked = localStorage.getItem('checked');
             var checked_saved = __checked ? JSON.parse(__checked) : [];
