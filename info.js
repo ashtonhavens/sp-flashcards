@@ -364,7 +364,22 @@ const relative_pronouns = [
     ["Lo que quiero es una casa.", "What I want is a house."],
     ["Este supermercado tiene todo lo que necesito.", "This supermarket has everything I need."],
     ["A Samuel no le gustó lo que le dijo Violeta.", "Samuel didn't like what Violet said to him."],
-]
+];
+
+const ud_uds_commands = [
+    ["Hable con ellos, don Francisco.", "Talk with them, Don Francisco."],
+    ["Laven los platos ahora mismo.", "Wash the dishes right now."],
+    ["Coma frutas y verduras.", "Eat fruits and vegetables."],
+    ["Beban menos té y café.", "Drink less tea and coffee."],
+    ["Oiga, don Manolo...", "Listen, Don Manolo..."],
+    ["Ponga la mesa, por favor.", "Set the table, please."],
+    ["¡Salga inmediatamente!", "Leave immediately!"],
+    ["Hagan la cama antes de salir.", "Make the bed before leaving."],
+    ["No ponga las maletas en la cama.", "Don't put the suitcases on the bed."],
+    ["No ensucien los sillones.", "Don't dirty the armchairs."],
+    ["Muéstrele usted la foto a su amigo.", "Show the photo to your friend."],
+    ["Tomen ustedes esta mesa.", "Take this table."],
+];
 
 const info = [
     en_el_consultorio,
@@ -378,5 +393,6 @@ const info = [
     reciprocal_reflexives,
     stressed_possessive_adjectives_and_pronouns,
     la_vivienda,
-    relative_pronouns
+    relative_pronouns,
+    ud_uds_commands,
 ]
