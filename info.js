@@ -381,6 +381,21 @@ const ud_uds_commands = [
     ["Tomen ustedes esta mesa.", "Take this table."],
 ];
 
+const present_subjunctive = [
+    ["Es mejor que cenemos en casa.", "It is better to have dinner at home."],
+    ["Es importante que visites las casas colgadas de Cuenca.", "It is important that you visit the hanging houses in Cuenca."],
+    ["Señora, es urgente que saque el diente.  Tiene una infección.", "Ma'am, it is urgent that you pull the tooth.  You have an infection."],
+    ["Es malo que Ana les dé tantos dulces a los niños.", "It is bad that Ana gives so much candy to the children."],
+    ["Es necesario que lleguen a la una de la tarde.", "It is necessary that you arrive at one o'clock in the afternoon."],
+    ["Es importante que acostemos temprano.", "It is important to go to bed early."],
+    ["Es importante que coman más verduras", "It is important that they eat more vegetables."],
+    ["No, es mejor que salgamos a comer.", "No, it's better if we go out to eat."],
+    ["Y yo creo que es Bueno que vaya a madrid después.", "And I think it's good for me to go to Madrid afterwards."],
+    ["En mi opinion, no es necesario que durmamos tanto.", "In my opinion, it is not necessary for us to sleep so long."],
+    ["¿Ah, sí?  ¿Es necesario que me tome un antibiótico también?", "Is it necessary for me to take an antibiotic too?"],
+    ["Para llegar a tiempo, no es necesario que almorcemos temprano.", "In order to be on time, we don't need to have an early lunch."],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -395,4 +410,5 @@ const info = [
     la_vivienda,
     relative_pronouns,
     ud_uds_commands,
+    present_subjunctive,
 ]
