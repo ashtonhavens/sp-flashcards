@@ -384,7 +384,7 @@ const ud_uds_commands = [
 const present_subjunctive = [
     ["Es mejor que cenemos en casa.", "It is better to have dinner at home."],
     ["Es importante que visites las casas colgadas de Cuenca.", "It is important that you visit the hanging houses in Cuenca."],
-    ["Señora, es urgente que saque el diente.  Tiene una infección.", "Ma'am, it is urgent that you pull the tooth.  You have an infection."],
+    ["Señora, es urgente que saque el diente. Tiene una infección.", "Ma'am, it is urgent that you pull the tooth. You have an infection."],
     ["Es malo que Ana les dé tantos dulces a los niños.", "It is bad that Ana gives so much candy to the children."],
     ["Es necesario que lleguen a la una de la tarde.", "It is necessary that you arrive at one o'clock in the afternoon."],
     ["Es importante que acostemos temprano.", "It is important to go to bed early."],
@@ -392,8 +392,23 @@ const present_subjunctive = [
     ["No, es mejor que salgamos a comer.", "No, it's better if we go out to eat."],
     ["Y yo creo que es Bueno que vaya a madrid después.", "And I think it's good for me to go to Madrid afterwards."],
     ["En mi opinion, no es necesario que durmamos tanto.", "In my opinion, it is not necessary for us to sleep so long."],
-    ["¿Ah, sí?  ¿Es necesario que me tome un antibiótico también?", "Is it necessary for me to take an antibiotic too?"],
+    ["¿Ah, sí? ¿Es necesario que me tome un antibiótico también?", "Is it necessary for me to take an antibiotic too?"],
     ["Para llegar a tiempo, no es necesario que almorcemos temprano.", "In order to be on time, we don't need to have an early lunch."],
+]
+
+const subjunctive_with_verbs_of_will_and_influence = [
+    ["Enrique quiere que salgamos a cenar.", "Enrique wants us to go out to dinner."],
+    ["Paola prefiere que cenemos en casa.", "Paola prefers that we have dinner at home."],
+    ["Te aconsejo que estudies.", "I advise you to study."],
+    ["Le sugiero que vaya a casa.", "I suggest that he go home."],
+    ["Les recomiendo que barran el suelo.", "I recommend that you sweep the floor."],
+    ["Le ruego que no venga.", "I'm begging him not to come."],
+    ["Ella les prohíbe que miren la televisión.", "She prohibits them from watching TV."],
+    ["Nos prohiben que nademos en la piscina.", "They prohibit that we swim in the swimming pool."],
+    ["No quiero sacudir los muebles.", "I don't want to dust the furniture."],
+    ["Paco prefiere descansar.", "Paco prefers to rest."],
+    ["Es importante sacar la basura.", "It's important to take out the trash."],
+    ["No es necesario quitar la mesa.", "It's not necessary to clear the table."],
 ]
 
 const info = [
@@ -411,4 +426,5 @@ const info = [
     relative_pronouns,
     ud_uds_commands,
     present_subjunctive,
+    subjunctive_with_verbs_of_will_and_influence,
 ]
