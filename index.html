@@ -91,8 +91,10 @@
                 <label for="12">(3.2) Formal Usted and Ustedes Commands</label><br>
                 <input type="checkbox" id="13">
                 <label for="13">(3.3) The Present Subjunctive</label><br>
-                <input type="checkbox" id="14" checked>
+                <input type="checkbox" id="14">
                 <label for="14">(3.4) Subjunctive with Verbs of Will and Influence</label><br>
+                <input type="checkbox" id="15" checked>
+                <label for="15">(4.0) La Naturaleza</label><br>
             </div>
             <div>
                 <div id="lesson"></div>
@@ -107,7 +109,7 @@
         </main>
 
 
-        <script src="info.js?version=8"></script>
+        <script src="info.js?version=9"></script>
         <script>
             
              // you are now entering spaghetti code land //
@@ -118,7 +120,7 @@
             const lesson = document.getElementById('lesson');
             const checks = document.getElementById('lesson_check');
 
-            const lessons = '1.0 1.1 1.2 1.3 1.4 2.0 2.1 2.2 2.3 2.4 3.0 3.1 3.2 3.3 3.4 3.5 4.0 4.1 4.2 4.3 4.4 5.0 5.1 5.2 5.3 5.4 6.0 6.1 6.2 6.3 6.4 6.5 7.0 7.1 7.2 7.3 7.4 7.5 8.0 8.1 8.2 8.3 8.5 9.0 9.1 9.2 9.5'.split(' ');
+            const lessons = '1.0 1.1 1.2 1.3 1.4 2.0 2.1 2.2 2.3 2.4 3.0 3.1 3.2 3.3 3.4 4.0 4.1 4.2 4.3 4.4 5.0 5.1 5.2 5.3 5.4 6.0 6.1 6.2 6.3 6.4 6.5 7.0 7.1 7.2 7.3 7.4 7.5 8.0 8.1 8.2 8.3 8.5 9.0 9.1 9.2 9.5'.split(' ');
 
             let __checked = localStorage.getItem('checked');
             var checked_saved = __checked ? JSON.parse(__checked) : [];
