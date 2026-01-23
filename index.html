@@ -182,6 +182,20 @@
                 return l;
             }
 
+            function change_lesson(dir) {
+                if (checked.length === 0) {
+                    return;
+                }
+
+                flipped = false;
+
+                current_item = 0;
+                current_lesson = get_next_valid_lesson(current_lesson, dir);
+
+                update_variables();
+                update_card();
+            }
+
             function update_checked() {
                 checked = [];
                 for (let ele of checks.children) {
