@@ -483,6 +483,19 @@ const la_naturaleza = [
     ["respirar", "to breathe"],
 ]
 
+const the_subjunctive_with_verbs_of_emotion = [
+    ["Nos alegramos de que te gusten las flores.", "We are happy that you like the flowers."],
+    ["Temo que Ana no pueda ir mañana con nosotros.", "I'm afraid that Ana won't be able to go with us tomorrow."],
+    ["Siento que tú no puedas venir mañana.", "I'm sorry that you can't come tomorrow."],
+    ["Le sorprende que Juan sea tan joven.", "It surprises him that Juan is so young."],
+    ["Me molesta que la gente no recicle el plástico.", "It bothers me that people don't recycle plastic."],
+    ["Es triste que tengamos problemas como el cambio climático.", "It's sad that we have problems like climate change."],
+    ["Temo llegar tarde.", "I'm afraid I'll arrive late."],
+    ["Temo que mi novio llegue tarde.", "I'm afraid my boyfriend will arrive late."],
+    ["Ojalá (que) se conserven nuestros recursos naturales.", "I hope (that) our natural resources will be conserved."],
+    ["Ojalá (que) recojan la basura hoy.", "I hope (that) they collect the garbage today."],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -503,4 +516,5 @@ const info = [
     subjunctive_with_verbs_of_will_and_influence,
 
     la_naturaleza,
+    the_subjunctive_with_verbs_of_emotion,
 ]
