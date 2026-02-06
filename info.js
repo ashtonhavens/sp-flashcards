@@ -496,6 +496,21 @@ const the_subjunctive_with_verbs_of_emotion = [
     ["Ojalá (que) recojan la basura hoy.", "I hope (that) they collect the garbage today."],
 ]
 
+const the_subjunctive_with_doubt_disbelief_and_denial = [
+    ["El gobierno niega que el agua esté contaminada.", "The government denies that the water is contaminated."],
+    ["Es probable que haya menos bosques y selvas en el futuro.", "It's probable that there will be fewer forests and jungles in the future."],
+    ["Dudo que el gobierno resuelva el problema.", "I doubt that the government will solve the problem."],
+    ["No es verdad que mi hermano estudie ecología.", "It's not true that my brother studies ecology."],
+    ["No negamos que hay demasiados carros en las carreteras.", "We don't deny that there are too many cars on the highways"],
+    ["No hay duda de que el Amazonas es uno de los ríos más largos.", "There is no doubt that the Amazon is one of the longest rivers."],
+    ["Es verdad que Colombia es un país bonito.", "It's true that Colombia is a beautiful country."],
+    ["Es obvio que las ballenas están en peligro de extinción.", "It's obvious that whales are in danger of extinction."],
+    ["Creo que debemos usar exclusivamente la energía solar.", "I believe we should use solar energy exclusively."],
+    ["No creo que haya vida en el planeta Marte.", "I don't believe that there is life on the planet Mars."],
+    ["Quizás haga sol mañana.", "Perhaps it will be sunny tomorrow."],
+    ["Tal vez veamos la luna esta noche.", "Perhaps we will see the moon tonight."],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -517,4 +532,5 @@ const info = [
 
     la_naturaleza,
     the_subjunctive_with_verbs_of_emotion,
+    the_subjunctive_with_doubt_disbelief_and_denial
 ]
