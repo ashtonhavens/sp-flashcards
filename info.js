@@ -510,6 +510,18 @@ const the_subjunctive_with_doubt_disbelief_and_denial = [
     ["Quizás haga sol mañana.", "Perhaps it will be sunny tomorrow."],
     ["Tal vez veamos la luna esta noche.", "Perhaps we will see the moon tonight."],
 ]
+const the_subjunctive_with_conjunctions = [
+    ["Voy a dejar a un recado en caso de que Gustavo me llame.", "I'm going to leave a message in case Gustavo calls me."],
+    ["Voy al supermercado para que tengas algo de comer.", "I'm going to the store so that you'll have something to eat."],
+    ["Algunos animales van a morir a menos que haya leyes para protegerlos.", "Some animals are going to die unless there are laws to protect them."],
+    ["Ellos nos llevan a la selva para que veamos las plantas tropicales.", "They are taking us to the jungle so that we may see the tropical plants."],
+    ["Te llamamos antes de salir de la casa.", "We will call you before leaving the house."],
+    ["Te llamamos mañana antes de que salgas.", "We will call you tomorrow before you leave."],
+    ["Vamos a resolver el problema cuando desarrollemos nuevas tecnologías.", "We are going to solve the problem when we develop new technologies."],
+    ["Después de que ustedes tomen sus refrescos, reciclen las botellas.", "After you drink your soft drinks, recycle the bottles."],
+    ["Contaminan los ríos cuando construyen nuevos edificios.", "They pollute the rivers when they build new buildings."],
+    ["Contaminaron el río cuando construyeron ese edificio.", "They polluted the river when they built that building."],
+]
 
 const info = [
     en_el_consultorio,
@@ -532,5 +544,6 @@ const info = [
 
     la_naturaleza,
     the_subjunctive_with_verbs_of_emotion,
-    the_subjunctive_with_doubt_disbelief_and_denial
+    the_subjunctive_with_doubt_disbelief_and_denial,
+    the_subjunctive_with_conjunctions
 ]
