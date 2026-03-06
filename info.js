@@ -578,6 +578,27 @@ const en_la_ciudad = [
 
 ]
 
+
+const the_subjunctive_in_adjective_clauses = [
+["Necesito el libro que tiene información sobre Venezuela.", "I need the book that has information about Venezuela."],
+["Quiero vivir en esta casa que tiene jardín.", "I want to live in this house that has a garden."],
+["En mi barrio, hay una heladería que vende helado de mango.", "In my neighborhood, there's an ice cream shop that sells mango ice cream."],
+["Necesito un libro que tenga información sobre Venezuela.", "I need a book that has information about Venezuela."],
+["Quiero vivir en una casa que tenga jardín.", "I want to live in a house that has a garden."],
+["En mi barrio no hay ninguna heladería que venda helado de mango.", "In my neighborhood, there is no ice cream shop that sells mango ice cream."],
+["Quiero ir al supermercado que vende productos venezolanos.", "I want to go to the supermarket that sells Venezuelan products."],
+["Busco al profesor que enseña japonés.", "I'm looking for the professor who teaches Japanese."],
+["Conozco a alguien que va a esa peluquería.", "I know someone who goes to that beauty salon."],
+["Tengo un amigo que vive cerca de mi casa.", "I have a friend who lives near my house."],
+["Necesitamos un empleado que sepa usar computadoras.", "We need an employee who knows how to use computers."],
+["Buscamos a alguien que pueda cocinar.", "We're looking for someone who can cook."],
+["Necesitamos al empleado que sabe usar computadoras.", "We need the employee who knows how to use computers."],
+["No conocemos a nadie que pueda cocinar.", "We don't know anyone who can cook."],
+["¿Hay un parque que esté cerca de nuestro hotel?", "Is there a park that's near our hotel?"],
+["Sí, hay un parque que está muy cerca del hotel.", "Yes, there's a park that's very near the hotel."],
+    
+];
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -603,4 +624,5 @@ const info = [
     the_subjunctive_with_conjunctions,
 
     en_la_ciudad,
+    the_subjunctive_in_adjective_clauses,
 ]
