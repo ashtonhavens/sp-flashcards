@@ -604,17 +604,17 @@ const the_subjunctive_in_adjective_clauses = [
 ];
 
 const nosotros_as_commands = [
-["Crucemos la calle.", "Let’s cross the street."],
-["No crucemos la calle.", "Let’s not cross the street."],
-["Vamos a cruzar la calle.", "Let’s cross the street. (future)"],
-["Vamos a trabajar mucho.", "We’re going to work a lot."],
-["Vamos a la pescadería.", "Let’s go to the fish market."],
-["No vayamos a la pescadería.", "Let’s not go to the fish market."],
-["Firmemos el cheque.", "Let’s sign the check."],
-["Firmémoslo.", "Let’s sign it. (the check)"],
-["Escribamos a Ana y Raúl.", "Let’s write Ana and Raul."],
-["No les paguemos el préstamo.", "Let’s not pay the loan."],
-["No se lo digamos a ellos.", "Let’s not tell them."],
+    ["Crucemos la calle.", "Let's cross the street."],
+    ["No crucemos la calle.", "Let's not cross the street."],
+    ["Vamos a cruzar la calle.", "Let's cross the street. (future)"],
+    ["Vamos a trabajar mucho.", "We're going to work a lot."],
+    ["Vamos a la pescadería.", "Let's go to the fish market."],
+    ["No vayamos a la pescadería.", "Let's not go to the fish market."],
+    ["Firmemos el cheque.", "Let's sign the check."],
+    ["Firmémoslo.", "Let's sign it. (the check)"],
+    ["Escribamos a Ana y Raúl.", "Let's write Ana and Raul."],
+    ["No les paguemos el préstamo.", "Let's not pay the loan."],
+    ["No se lo digamos a ellos.", "Let's not tell them."],
 ]
 
 const info = [
