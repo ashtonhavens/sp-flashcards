@@ -613,6 +613,28 @@ const nosotros_as_commands = [
     ["No se lo digamos a ellos.", "Let's not tell them."],
 ]
 
+    const past_participles_used_as_adjectives = [
+["In the entrance, there are some signs written in Spanish.", "En la entrada hay algunos letreros escritos en español."],
+ 
+["We have the table set and dinner made.", "Tenemos la mesa puesta y la cena hecha."],
+ 
+["Today my favorite hair salon is closed.", "Hoy mi peluquería favorita está cerrada."],
+ 
+["So, I go to another beauty salon that is open every day.", "Por eso, voy a otro salón de belleza que está abierto todos los días."],
+ 
+["It is located in Plaza Bolivar, a very well known square.", "Queda en la Plaza Bolívar, una plaza muy conocida."],
+ 
+["All products and services of this store are described in a catalog.", "Todos los productos y servicios de esta tienda están descritos en un catálogo."],
+ 
+["The name of the salon is written on the sign and on the sidewalk.", "El nombre del salón está escrito en el letrero y en la acera."],
+ 
+["When this diligence is done, I need to stop by the bank.", "Cuando esta diligencia esté hecha, necesito pasar por el banco."],
+ 
+["My bed is always made.", "Mi cama siempre está hecha."],
+ 
+["My problems are always solved.", "Mis problemas siempre están resueltos."],
+ ];
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -640,4 +662,5 @@ const info = [
     en_la_ciudad,
     the_subjunctive_in_adjective_clauses,
     nosotros_as_commands,
+    past_participles_used_as_adjectives,
 ]
