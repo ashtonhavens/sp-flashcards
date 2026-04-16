@@ -691,6 +691,29 @@ const el_bienestar = [
 
 ]
 
+const present_perfect = [
+["Tú no has aumentado de peso.", "You haven't gained weight."],
+["Yo ya he leído esos libros.", "I've already read those books."],
+["¿Ha asistido Juan a la clase de yoga?", "Has Juan attended the yoga class?"],
+["Hemos conocido al entrenador.", "We have met the trainer."],
+["Clara ha abierto las ventanas.", "Clara has opened the windows."],
+["Yo ha cerrado la puerta del gimnasio.", "I've closed the door to the gym."],
+["Las ventanas están abiertas.", "The windows are open."],
+["La puerta del gimnasio está cerrada.", "The door to the gym is closed."],
+["He trabajado cuarenta horas esta semana.", "I have worked forty hours this week."],
+["¿Cuál es el último libro que has leído?", "What is the last book that you have read?"],
+["Siempre hemos vivido en Bolivia.", "We have always lived in Bolivia."],
+["Usted nunca ha venido a mi oficina.", "You have never come to my office."],
+["Yo no he comido la merienda.", "¿Por qué no la has comido?"],
+["Susana ya se ha entrenado.", "Susana has already practiced."],
+["Ellos no lo han terminado.", "They haven't finished it."],
+["Tengo muchos amigos.", "I have a lot of friends."],
+["He tenido mucho éxito.", "I have had a lot of success."],
+["Ha habido muchos problemas con el nuevo profesor.", "There have been a lot of problems with the new professor."],
+["Ha habido un accidente en la calle Central.", "There has been an accident on Central Street."],
+
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -721,4 +744,5 @@ const info = [
     past_participles_used_as_adjectives,
 
     el_bienestar,
+    present_perfect,
 ]
