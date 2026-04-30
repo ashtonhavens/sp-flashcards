@@ -715,6 +715,36 @@ const present_perfect = [
 
 ]
 
+
+const conditional_perfect = [
+["Antes de 2012, había vídeo en la paz", "Before 2012, I had lived in La Paz"],
+["Cuando llegamos, Luis ya había salido", "When we arrived, Luis had already left"],
+["Ella ya había salido cuando llamaron", "She had already left when they called"],
+["Cuando llegué, Raúl ya se había ido a la cama", "When I arrived, Raul had already gone to bed"],
+["Antes de esto ano nunca había estudiado química", "Before this year I had never studied chemistry"],
+["Luis me había llamado antes de venir", "Luis had called me before he came"],
+["Nosotros ya habíamos cenado cuando nos llamaron", "We had already had dinner when they called us"],
+["Antes de tomar esta clase, yo no había estudiado nunca el español", "Before taking this class, I had never studied Spanish"],
+["Antes de ir a México, ellos nunca habían ido a otro país", "Before going to Mexico, they had never been to another country"],
+["Eduardo nunca se había entrenado tanto en el invierno", "Eduardo had never trained so much in the winter"],
+
+
+]
+
+
+const past_perfect_subjunctive = [
+    ["Espero que duermas bien", "I hope you slept well"],
+    ["Espero que hayas dormido bien", "I hope that you have slept well"],
+    ["No creo que aumente de peso", "I don’t think he will gain weight"],
+    ["No creo que haya aumentado de peso", "I don’t think he has gained weight"],
+    ["Me alegro de que ustedes se hayan reído tanto esta tarde", "I’m glad that you have laughed so much this afternoon"],
+    ["Dudo que tú te hayas divertido mucho con tu suegra", "I doubt that you have enjoyed yourself much with your mother-in-law"],
+    ["Me gusta que ustedes hayan dicho la verdad", "I like that you have told the truth"],
+    ["No creo que tú hayas comido tanto", "I don’t think you have eaten that much"],
+    ["Es imposible que usted haya podido hacer tal cosa", "It is impossible that you have done such a thing"],
+    ["Me alegro de que tú y yo hayamos merendado juntas", "I am glad that you have snacked together"],
+]
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -746,4 +776,6 @@ const info = [
 
     el_bienestar,
     present_perfect,
+    conditional_perfect,
+    past_perfect_subjunctive,
 ]
