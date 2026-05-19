@@ -808,6 +808,27 @@ const el_mundo_del_trabajo = [
 ]
 
 
+const the_future = [
+["Voy al cine mañana.", "I'm going to the movies tomorrow."],
+["Voy a ir al cine.", "I'm going to go to the movies."],
+["Ojalá vaya al cine mañana.", "I hope I will go to the movies tomorrow."],
+["Iré al cine.", "I will go to the movies."],
+["¿Cuándo recibirás el ascenso?", "When will you receive the promotion?"],
+["Mañana aprenderemos más.", "Tomorrow we will learn more."],
+["La próxima semana habrá dos reuniones.", "Next week there will be two meetings."],
+["Habrá muchos gerentes en la videoconferencia.", "There will be many managers at the videoconference."],
+["¿Quieres llamarme, por favor?", "Will you please call me?"],
+["¿Quieren ustedes escucharnos, por favor?", "Will you please listen to us?"],
+["¿Dónde estarán mis llaves?", "I wonder where my keys are."],
+["Estarán en la cocina.", "They're probably in the kitchen."],
+["¿Qué hora será?", "What time can it be? (I wonder what time it is.)"],
+["Serán las once o las doce.", "It must be (It's probably) eleven or twelve."],
+["Cuando llegues a la oficina, hablaremos.", "When you arrive at the office, we will talk."],
+["Saldremos tan pronto como termine su trabajo.", "We will leave as soon as you finish your work."],
+
+]
+
+
 const info = [
     en_el_consultorio,
     imperfect_tense,
@@ -843,4 +864,5 @@ const info = [
     past_perfect_subjunctive,
 
     el_mundo_del_trabajo,
+    the_future,
 ]
